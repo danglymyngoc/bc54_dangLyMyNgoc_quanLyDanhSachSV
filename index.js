@@ -1,6 +1,3 @@
-var checkNumber = /^\d+$/.test('');
-console.log(checkNumber)
-
 var dssv = [];
 var DSSV_LOCAL = 'DSSV_LOCAL'
 
@@ -56,3 +53,4 @@ function xoaSV(id){
 	dssv.splice(index,1);
 	renderDSSV(dssv)
 }
+
